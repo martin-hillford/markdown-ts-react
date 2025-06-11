@@ -2,5 +2,6 @@ export { markdownToHtml, getVimeoUrl, getVimeoVideoId, getYouTubeId, getYouTubeU
 export { MarkDown } from "./MarkDown";
 export { YouTube } from "./YouTube";
 export { Vimeo } from "./Vimeo";
+export { Video } from "./Video";
 export { TextEditor } from "./TextEditor";
 export { BaseStyle } from "./BaseStyle.tsx";
