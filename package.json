@@ -1,0 +1,46 @@
+{
+  "name": "@martin-hillford/markdown-ts-react",
+  "version": "1.0.2",
+  "author": {
+    "name": "Martin Hillford",
+    "email": "171671237+martin-hillford@users.noreply.github.com"
+  },
+  "scripts": {
+    "build": "tsc && vite build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.es.js",
+  "types": "lib/index.d.ts",
+  "files": [ "/lib", "readme.md", "license" ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martin-hillford/markdown-ts-react.git"
+  },
+  "keywords": [ "React", "MarkDown" ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martin-hillford/markdown-ts-react/issues"
+  },
+  "homepage": "https://github.com/martin-hillford/markdown-ts-react#readme",
+  "description": "",
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "@martin-hillford/markdown-ts": "^1.0.2",
+    "styled-components": "^6.1.18"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-interactions": "^8.6.12",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/react-vite": "^8.6.12",
+    "@storybook/test": "^8.6.12",
+    "@types/react": "^19.1.7",
+    "storybook": "^8.6.12",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}
